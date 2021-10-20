@@ -14,13 +14,11 @@ This is a simple wallpaper downloader in python [Python](https://www.python.org/
 * os
 * random
 
-## Installation
+## How to setup
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/).
+**Step 1:** Download python
 
-```bash
-pip install -r requirements.txt
-```
+**Step 2:** Run the start.bat
 
 ## Contributing
 * Please open an issue first to discuss what you would like to change and don't forget to give a star.
