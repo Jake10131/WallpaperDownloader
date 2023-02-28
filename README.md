@@ -52,6 +52,6 @@ SOFTWARE.
 ## Download:
 * Download from [here](https://github.com/Jake10131/WallpaperDownloader/releases)
 
-## Authors
+## Authors:
 
-Authored and maintained by [@Jake10131](https://github.com/Jake10131)
+* Author and maintained by [@Jake10131](https://github.com/Jake10131)
