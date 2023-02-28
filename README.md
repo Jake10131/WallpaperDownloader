@@ -13,7 +13,6 @@ This is a simple wallpaper downloader in python [Python](https://www.python.org/
 * beautifulsoup4
 * requests
 * tqdm
-* random
 
 ## How to setup:
 
