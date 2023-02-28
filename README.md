@@ -4,14 +4,15 @@ This is a simple wallpaper downloader in python [Python](https://www.python.org/
 
 ## Features:
 * User Agent!
-* Numbers of pages to scrape!
+* Numbers of wallpapers to scrape!
 * Auto saving!
+* Multithreading!
 
 ## Requirements:
 
 * beautifulsoup4
 * requests
-* os
+* tqdm
 * random
 
 ## How to setup:
