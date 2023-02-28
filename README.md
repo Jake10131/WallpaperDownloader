@@ -1,4 +1,4 @@
-# Wallpaper-Downloader!
+# WallpaperDownloader!
 
 This is a simple wallpaper downloader in python [Python](https://www.python.org/downloads/).
 
