@@ -2,19 +2,19 @@
 
 This is a simple wallpaper downloader in python [Python](https://www.python.org/downloads/).
 
-## Features
+## Features:
 * User Agent!
 * Numbers of pages to scrape!
 * Auto saving!
 
-## Requirements
+## Requirements:
 
 * beautifulsoup4
 * requests
 * os
 * random
 
-## How to setup
+## How to setup:
 
 **Step 1:** Download python
 
@@ -22,9 +22,9 @@ This is a simple wallpaper downloader in python [Python](https://www.python.org/
 
 ## Contributing
 * Please open an issue first to discuss what you would like to change and don't forget to give a star.
-* [Fork the repository!](https://github.com/Jake10131/Wallpaper-Downloader-)
+* [Fork the repository!](https://github.com/Jake10131/WallpaperDownloader)
 
-## License
+## License:
 
 - [MIT](https://choosealicense.com/licenses/mit/)
 
@@ -49,6 +49,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+##Download:
+* Download from [here](https://github.com/Jake10131/WallpaperDownloader/releases)
 
 ## Authors
 
