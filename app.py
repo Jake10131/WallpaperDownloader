@@ -39,7 +39,7 @@ def check(link,title):
         for index,image in enumerate(images):
             if len(image_links)!=num and link not in image_links:
                 pic = image['href']
-                image_links[pic]=name+" "+str(index)
+                image_links[pic]=name+" "+str(index+1)
 
 def main():
     wall=json.loads(s.get("https://www.reddit.com/r/wallpaper/random/.json",headers=headers).text)[0]
