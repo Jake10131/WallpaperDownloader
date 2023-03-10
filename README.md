@@ -1,12 +1,13 @@
 # WallpaperDownloader!
 
-This is a simple wallpaper downloader in python [Python](https://www.python.org/downloads/).
+This is a simple wallpaper downloader in [Python](https://www.python.org/downloads/).
 
 ## Features:
 * User Agent!
 * Numbers of wallpapers to scrape!
 * Auto saving!
 * Multithreading!
+* Animated wallpapers! (Use [Lively Wallpaper!](https://www.rocksdanister.com/lively/))
 
 ## Requirements:
 
