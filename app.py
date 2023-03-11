@@ -105,7 +105,9 @@ def imagewall():
             for index,image in enumerate(images):
                 if len(image_links)!=num and link not in image_links:
                     pic = image['href']
-                    image_links[pic]=f'{title} {index+1}'
+                    if ".png" in pic or ".jpg" in pic:
+                        print(f'Wallpaper title: {title} =>Index:  {index+1} => Format: {os.path.splitext(urlparse(pic).path)[1]}!')
+                        image_links[pic]=f'{title} {index+1}'
     check(url,title)
 
 if __name__=="__main__":
@@ -128,7 +130,7 @@ if __name__=="__main__":
     if pick==1:
         while len(image_links)!=num:
             imagewall()
-    elif pick==2:
+    else:
         liveWall()
     print(f'Saving: {len(image_links)} wallpapers!')
-    thread_map(saveFile,image_links,max_workers=len(image_links))
+    thread_map(saveFile,image_links)
