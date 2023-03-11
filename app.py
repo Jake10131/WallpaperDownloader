@@ -101,7 +101,6 @@ def imagewall():
                 image_links[link]=title
         elif "gallery" in link:
             images=BSoup(s.get(link,headers=headers).content, 'html.parser').find_all('a', class_="_3BxRNDoASi9FbGX01ewiLg iUP9nbvcaxfwKrQTgt0sw")
-            if link not in image_links: print(f'Wallpaper title: "{title}" => Format: gallery (with {len(images)} images)!')
             for index,image in enumerate(images):
                 if len(image_links)!=num and link not in image_links:
                     pic = image['href']
